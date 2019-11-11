@@ -1,0 +1,22 @@
+{
+    "name": "lukas/homework",
+    "description":":Lukas PHP OOP homework",
+    "keywords": ["Lukas", "homework"],
+    "homepage": "https://github.com/stresas2/HW_PHP_OOP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+       {
+           "name": "Lukas Budrys",
+           "email": "lbudrys@inbox.lt"
+       }
+   ],
+    "require": {
+        "php": "^7.1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "nfq\\": "src/"
+      }
+    }
+}
